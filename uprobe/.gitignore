@@ -1,0 +1,5 @@
+/target
+/*.bpf.o
+/uprobe
+/*.skel.h
+/.output
