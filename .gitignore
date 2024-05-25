@@ -1,0 +1,3 @@
+/uprobe.bpf.o
+/dump*
+/*.out
