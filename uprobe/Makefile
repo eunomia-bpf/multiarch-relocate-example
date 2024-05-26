@@ -137,4 +137,4 @@ $(APPS): %: $(OUTPUT)/%.o $(LIBBPF_OBJ) | $(OUTPUT)
 # keep intermediate (.skel.h, .bpf.o, etc) targets
 .SECONDARY:
 target: target.c
-	clang target.c -o target -g -O
+	clang target.c -o target -g

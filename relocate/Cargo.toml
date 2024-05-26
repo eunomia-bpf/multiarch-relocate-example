@@ -1,9 +1,5 @@
-[package]
-name = "relocate"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-anyhow = "1.0.86"
-btfdump = "0.0.4"
-object = "=0.32.1"
+[workspace]
+resolver = "2"
+members = [ "object-wrapper",
+    "relocate"
+]

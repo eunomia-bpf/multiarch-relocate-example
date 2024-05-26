@@ -1,3 +1,4 @@
 /uprobe.bpf.o
 /dump*
 /*.out
+/uprobe_new.bpf.o
