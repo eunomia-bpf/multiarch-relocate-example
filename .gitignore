@@ -2,3 +2,5 @@
 /dump*
 /*.out
 /uprobe_new.bpf.o
+/loader
+/target
